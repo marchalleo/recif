@@ -24,7 +24,7 @@ export default function Section3() {
                 </div>
             </div>
             <div className="section3-titre">
-                <h2>Parce qu’avec Récif...</h2>
+                <h2>Parce que avec Récif 📱</h2>
             </div>
         </div>
     )

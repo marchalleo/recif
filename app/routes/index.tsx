@@ -39,14 +39,17 @@ export default function Index() {
 
   window.onscroll = function (event) {
     var scroll = window.pageYOffset;
+    console.log(scroll);
+    
+    
     if (scroll < 550) {
         body.style.backgroundColor = '#1D4F49';
     } 
-    else if (scroll >= 550 && scroll < 1500) {
+    else if (scroll >= 550 && scroll < 2540) {
         body.style.backgroundColor = '#EDEDED';
     } 
-    else if (scroll >= 2220 && scroll < 3630) {
-      body.style.backgroundColor = '#E5CCB5';
+    else if (scroll >= 2540 && scroll < 3630) {
+      body.style.backgroundColor = '#EDEDED';
     }
     else if (scroll >= 3630 && scroll < 4500) {
       body.style.backgroundColor = '#EDEDED';

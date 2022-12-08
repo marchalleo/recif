@@ -11,7 +11,7 @@ export default function Section1() {
     return (
         <div className="section1">
             <div className="section1-text">
-                <h1>Avec Recif, découvrez des pièces unique et éthique grâce à nos créateurs</h1>
+                <h1>Avec Recif, découvrez des pièces uniques et éthiques grâce à nos créateurs</h1>
             </div>
             <span className="img1"></span>
             <span className="img2">Nous avons conçu une plateforme de vente en ligne responsable recensant les créateurs textile</span>
